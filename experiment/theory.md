@@ -23,13 +23,13 @@ St= Tangential Stress
 
 Once the strains are calculated, the change of resistance R of individual gauge is obtained from the gauge factors, then eo can be determined from the bridge circuit sensitivity.εtassumes its maximum value at r=0.  The radial strainεris positive in some region but negative in others and assumes its maximum value at r=R
  
- ![1](figure1.png)
+<center><img src="images/figure1.png" title="" /></center>
 
 Flat diaphragm shows nonlinearity at large deflections. This nonlinearity in the stresses follows closely the nonlinearity in the center point deflection yc, of the diaphragm, for which the following relation is available:
 
 P=(16Et^(4 ))/(3R^4 (1-ν))[yc/t  +0.488( yc/t)^3]
 
-  ![2](figure2.png)
+<center><img src="images/figure2.png" title="" /></center>
 
 A special purpose strain gauge rosette which has been designed to take advantages of this strain distribution, is widely used in diaphragm type pressure transducer. Two strain gauges will be at the center of diaphragm where tangential strain will be maximum. Similarly, two strain gauges are installed at the edge of the diaphragm where radial strain is maximum. 
 
