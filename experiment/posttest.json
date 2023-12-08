@@ -2,37 +2,66 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Pressure Controller sends signal to__",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "SV valve",
+        "b": "Level switch",
+        "c": "Pressure trasmitter",
+        "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "To operate Air Inlet valve  ___ signal is required",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "neumatic",
+        "b": "hydrolic ",
+        "c": "electrica",
+        "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Level switch output is ___",
+      "answers": {
+        "a": "equal to atmospheric pressure − absolute pressure",
+        "b": "greater than atmospheric pressure + gauge pressure",
+        "c": "equal to atmospheric pressure + gauge pressure",
+        "d": "greater than atmospheric pressure − absolute pressure"
       },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Atmospheric pressure is _____",
+      "answers": {
+        "a": "Digital",
+        "b": "Analog",
+        "c": "Hybrid",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "pressure trasmitter output is ",
+      "answers": {
+        "a": "Analog",
+        "b": "Digital",
+        "c": "Hybrid",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
