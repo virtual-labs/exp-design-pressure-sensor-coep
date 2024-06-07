@@ -1,0 +1,64 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Level switch is _____",
+      "answers": {
+        "a": "Manual",
+        "b": "Magnetic",
+        "c": "Mechanical",
+        "d": "None of these"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Level is _____ ",
+      "answers": {
+        "a": "directly proportional to pressure",
+        "b": "Inversly proportional to pressure",
+        "c": "equal proportional to pressure",
+        "d": "Low-volume  measurement"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is direct method of level measurement?",
+      "answers": {
+        "a": "Ultrasonic level detector",
+        "b": "Sight glass system",
+        "c": "Radar level sensor",
+        "d": "air purge"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	
+	{
+      "question": "A major part of the automatic control theory applies to the:",
+      "answers": {
+        "a": "Casual systems",
+        "b": "Time variant systems",
+        "c": "Linear Time invariant systems",
+        "d": "Non-linear systems"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Traffic light system is the example of",
+      "answers": {
+        "a": "Open-loop system",
+        "b": "Close-loop system",
+        "c": "Both a and b",
+        "d": "None of these"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+	
+  ]
+}

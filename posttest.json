@@ -1,0 +1,68 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Pressure Controller sends signal to__",
+      "answers": {
+        "a": "SV valve",
+        "b": "Level switch",
+        "c": "Pressure trasmitter",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To operate Air Inlet valve  ___ signal is required",
+      "answers": {
+        "a": "neumatic",
+        "b": "hydrolic ",
+        "c": "electrica",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Level switch output is ___",
+      "answers": {
+        "a": "equal to atmospheric pressure − absolute pressure",
+        "b": "greater than atmospheric pressure + gauge pressure",
+        "c": "equal to atmospheric pressure + gauge pressure",
+        "d": "greater than atmospheric pressure − absolute pressure"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Atmospheric pressure is _____",
+      "answers": {
+        "a": "Digital",
+        "b": "Analog",
+        "c": "Hybrid",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "pressure trasmitter output is ",
+      "answers": {
+        "a": "Analog",
+        "b": "Digital",
+        "c": "Hybrid",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
