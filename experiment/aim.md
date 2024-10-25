@@ -1,12 +1,14 @@
 ### Aim: 
-Design of Pressure Sensor and study performance of pressure sensor for design parameters
+Design of diaphragm type pressure sensor and Evaluate Sensor Performance
 
 
 ### Objectives:
-1.	Configure the sensor using design parameters
-2.	Test sensor performance for different installation methods
-3.	Analyze the effects of design parameters on the sensor’s sensitivity and range
-4.	Analyze the effects of design parameters on the sensor’s linearity and accuracy
-5.	Identify the faults in the sensor
+- Undersatand working of diaphragm pressure sensor
+- Configure diaphragm design parameters
+- Observe diaphragm displacement for change in pressure
+- Calculate stress and strain for applied pressure
+- Design signal conditioning and observe output voltage
+- Evaluate sensor performance for applied pressure
+
 
 

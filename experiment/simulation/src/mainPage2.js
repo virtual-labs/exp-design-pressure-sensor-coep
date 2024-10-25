@@ -7,11 +7,11 @@ function mainPage2(){
       $("#selectMethod").prop('disabled',true);
       $("#centerText1").html(' MIMIC');
       $("#centerText").html('CONFIGURATION');
-      var htm = '<img src="images/deflection_curve.png" class="img-fluid" >'
-      $("#canvas-div").html(htm);
+//      var htm = '<img src="images/deflection_curve.png" class="img-fluid" >'
+//      $("#canvas-div").html(htm);
    
       var selection  ='<div class="row"><div class="col-sm-6" >'
-       +'<label class="labelstyle"> Select the Ri: </label>'   
+       +'<label class="labelstyle"> Select the Ri (mm) : </label>'   
        +'</div>'
        +'<div class="col-sm-6">'
 	   +'<select  class="form-control selectConf" id="ri"  style="height:auto;">'
@@ -28,7 +28,7 @@ function mainPage2(){
 	   
 	   
 	   +'<div class="col-sm-6">'
-	   +'<label class="labelstyle"> Select Ro  : </label>'
+	   +'<label class="labelstyle"> Select Ro (mm) : </label>'
 	   +'</div>'
 	   +'<div class="col-sm-6">'
 	   +'<select  class="form-control selectConf" id="rt" " style="height:auto;">'
@@ -42,12 +42,10 @@ function mainPage2(){
 	   +'</div>'
 	   +'<br>'    
 	   +'<div class="row">'
-	   
-	   
 	  
        +'<div class="col-sm-12" id="buttonDiv">'
 	   +'<button type="button" style="padding: 10px; "  class="btn btn-danger btnStyle" id="submitconfig" data-toggle="modal" data-target="#selectCheck" ><b>  CHECK CONFIGURATION </b></button>' 
-	    +'</div>'
+	   +'</div>'
 
     
     +'<div class="row" id="timeAnswer" hidden>'
@@ -93,7 +91,7 @@ function mainPage2(){
 			   var flowAns = $("#CalTime").val();
 	
 		
-				if(flowAns==""){
+				if(flowAns=="" || flowAns == isAlphabetical(flowAns)){
 					
 					$("#modelMsg123").html("<b class='boldTextRed'>Enter numeric value ");
 					
@@ -102,7 +100,7 @@ function mainPage2(){
 				else
 					{
 					if (id <= 3) {
-						if (flowAns == calculateTime) {
+						if (flowAns == calculateTime ) {
 							$("#modelMsg123").html("done ");
 							$("#timeAnswer").prop('hidden',true);
 							id=0;
@@ -118,8 +116,9 @@ function mainPage2(){
 
 
 					} else if (id == 4)
-					 {
-						$("#modelMsg123").html("<b class='boldTextBlue'>Formula : Distance=Time * (speed of Sound/2)</b> ");
+					 {	
+						 modelImg = '<img src="images/F_6.png" class="img-responsive" alt="Cinque Terre">'
+						$("#modelMsg123").html(modelImg);
 
 						
 					} else {
@@ -153,24 +152,25 @@ function mainPage2(){
     
     
      $("#submitconfig").click(function() {
-		 ri = $("#ri").val();
-		 rt = $("#rt").val();
+//		 ri = $("#ri").val();
+//		 rt = $("#rt").val();
 		
 		
 		  $("#main-div-conf").html("");
 		
-		htm = '<div class="row" id="calculatePressure">'
-				     +'<div class="col-sm-5">'
-				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculated answer is :</label>'
+		htm = '<div class="row" id="timeAnswer">'
+				     +'<div class="col-sm-6">'
+				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculate radial stress  at r = '+ri+' mm :</label>'
 				       +'</div>'
 			           +'<div class="col-sm-3">'
 				       +'<input type="text" id="checkAns" style="margin-top:35px;width:100%;"  class=" form-control"/>'
 				       +'</div>'
 				       +'<div class="col-sm-3">'
-				       +'<br><button type="submit" id="btnAnsCheck" style="margin-top:17px;width:100%;" class=" btn btn-primary" data-toggle="modal" data-target="#mimicModel" >Submit</button>'
+				       +'<br><button type="submit" id="btnAnsCheck" style="margin-top:17px; width:100%;" class=" btn btn-danger" data-toggle="modal" data-target="#selectCheck" >Submit</button>'
 //				       + '<button type="button"  class="btn btn-primary btnStyle" id="next" hidden >Next Level</button>'
 				       +'</div>'
-				  	  +'</div>'   
+				   
+				  	  
 				  	   $("#main-div-conf").html(htm); 
 //				 $("#calculatePressure").html(Calculate);	 
 		 
@@ -181,19 +181,19 @@ function mainPage2(){
 	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
 	               +'</div>'
 	              
-//	               + '<div class="col-sm-2" id="labelSelected">'
-//	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Length : </center> </label>'
-//	               +'</div>'
+	               + '<div class="col-sm-2" id="labelSelected">'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Radius : '+radius+'mm </center> </label>'
+	               +'</div>'
 	 
 	                + '<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Distance : '+1+'mm</center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Pressure : '+pressure+'mm</center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-3" id="labelSelected">'
-	    	       +'<label class="labelstyle" style="margin-left:10px;"><center>Width : '+2+'mm</center> </label>'
+	    	       +'<label class="labelstyle" style="margin-left:10px;"><center>Thickness : '+thickness+'mm</center> </label>'
 	               +'</div>'
-  +'</div>'
-		+'<br>'
+  					+'</div>'
+					+'<br>'
     		  $("#canvas-div").html(labels2);
     		   $("#centerText").html('CALCULATION');
 			    mimic2();
