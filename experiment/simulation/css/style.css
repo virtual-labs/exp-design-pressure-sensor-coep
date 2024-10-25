@@ -20,7 +20,7 @@
   padding: 10px;
   border: 1px solid #aaaaaa;
 }
-#timeAnswer,#freqAnswer,#convertFreq,#freqAnswer
+#timeAnswer,#freqAnswer,#convertFreq,#freqAnswer,#wiston
 {
 			background-color: #31717b;
 			color:#fff;
@@ -61,6 +61,33 @@
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
+
+
+.draggable {
+            cursor: pointer;
+        }
+        .selected {
+            stroke: blue !important;
+            stroke-width: 4 !important;
+            
+        }
+        .selected-connection {
+            stroke: red !important;
+            stroke-width: 4 !important;
+        }
+        #delete-btn {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .dot {
+            fill: blue;
+            stroke: none;
+        }
 footer {
 	background: rgb(125,176,169);
 background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
