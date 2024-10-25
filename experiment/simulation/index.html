@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<link rel="stylesheet" href="css/transducer.css">
-<!-- 		<link rel="stylesheet" href="css/analysis.css"> -->
+	<link rel="stylesheet" href="css/analysis.css">
 </head>
 
 <style>
@@ -39,22 +39,68 @@
 	</header>
 
 <br>
- <div class="row" id="selectMethod" hidden>
- <div class="col-sm-2"></div>
-      <div class="col-sm-3" >
-       <label class="labelstyle"> Select Measurement Method </label>   
-       </div>
-      <div class="col-sm-4">
-	   <select  class="form-control selectConf" id="methodType"  style="height:auto;">
-	   <option value="0">--- Select Method --- </option>
-	   	<option value="1" >Flow Measurement</option>
-	   <option value="2">Level Measurement</option>
-	   </select>         
-       </div>
-       <div class="col-sm-3"></div>
-       </div>  
 
-<div  class="row container-fluid" id="mainDiv">
+<div  class="row container" style="">	
+	  <div  class="col-sm-8" >
+	  </div>
+	   <div  class="col-sm-2" >
+		<button type="button" class="btn btn-danger" style="margin-top:7px;margin-bottom:5px;"  id = "pdfDownload" hidden>
+	  Download Result
+	 
+	</button>
+	</div>
+	 <div  class="col-sm-2" >
+	 </div>
+	
+	</div>
+	 
+       <div  class="row container" style="">
+       <div  class="col-sm-8"> 	
+       </div>
+       <div  class="col-sm-2"> 
+      <button type="button" id="delete-btn" class="btn" data-dismiss="modal" style="margin-top:-1px;" hidden>Delete Selected</button>
+     </div>
+     
+     <div  class="col-sm-2"> 
+      <button type="button" id="validateCon" class="btn-info" data-dismiss="modal" data-toggle="modal" data-target="#myModal" style="margin-top:-1px;" hidden>Validate Connection</button>
+     </div>
+     
+     
+      </div>
+      
+      <div class="row">
+	<div  class="col-sm-10"> 
+	</div>
+      <div class="row">
+<div  class="col-sm-2"> 
+      <button type="button" class="btn btn-primary btnMarin" data-toggle="modal" style="margin-top:7px;margin-bottom:5px;" data-target="#exampleModal1" id = "btnForModal">
+	  Procedure
+	</button>
+	 </div>
+ </div>
+ 
+ <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header1" >
+        <h3 class="modal-title1" id="exampleModalLabel">Procedure</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body11" style="    overflow-y: scroll;height:600px;margin-left:10px; ">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+<!--         <button type="button" class="btn btn-primary">OK</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div  class="row container-fluid" id="mainDiv1">
 
 <div class="col-lg-6" id="main-div">
 	             <div class="panel panel-primary">
@@ -62,7 +108,7 @@
 	      			</div>
 	      			<label  id="counter"></label>
 	      			<div class="panel-body" id="canvas-div" >
-	      			<img src="images/pressure1.jpg" class="img-fluid " width="1000" height="800">
+	      			<img src="images/img_1.png" class="img-fluid " width="1000" height="800">
 	      			</div>
 
 	   			</div>
@@ -81,7 +127,31 @@
 	     		</div>
 	   	</div>
 	        
-	  </div>      
+	  </div> 
+	  
+	  
+	  <!-- 	Model Start -->
+	<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+		<h4 class="modal-title" style="font-weight: 600;"></h4>
+          <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <p id="MsgModal"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="btnModal" class="btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!--   Model end -->     
 
 	<footer>
 Copyrights &copy; COEP - Virtual Lab
@@ -89,14 +159,34 @@ Copyrights &copy; COEP - Virtual Lab
 </body>
 
 <!-- https://code.jquery.com/jquery-3.5.1.js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="lib/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
 <script type="text/javascript" src="lib/raphael.js"></script>
 <script type="text/javascript" src="lib/raphael.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  
+<!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script> -->
+  
+<!--   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+<!--   <script type="text/javascript" src="src/bootstrap.min.js"></script> -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+
 <script type="text/javascript" src="src/questionJson.js"></script>
 <script type="text/javascript" src="src/questions.js"></script>
 <script type="text/javascript" src="src/mainPage1.js"></script>
@@ -107,7 +197,65 @@ Copyrights &copy; COEP - Virtual Lab
 <script type="text/javascript" src="src/mimic2.js"></script>
 <script type="text/javascript" src="src/fmimic.js"></script>
 <script type="text/javascript" src="src/mainPage3.js"></script>
-<script type="text/javascript" src="src/lmimic.js"></script>
+<script type="text/javascript" src="src/wheatStoneBuild.js"></script>
+<script type="text/javascript" src="src/wheatStoneCalculation.js"></script>
+<script type="text/javascript" src="src/graphPage.js"></script>
+<script type="text/javascript" src="src/pressureResult.js"></script>
+<script >
+function isAlphabetical(input) {
+    return /^[A-Za-z]+$/.test(input);
+}
+</script>
+<script>
+function resetDivSize() {  
+    const div = document.getElementById('canvas-div');  
+    
+    // Resetting width and height to auto  
+    div.style.width = 'auto';  
+    div.style.height = 'auto'; 
+    
+ const div1 = document.getElementById('canvas');  
+    
+    // Resetting width and height to auto  
+    div1.style.width = 'auto';  
+    div1.style.height = 'auto';  
+    
+}  
+</script>
+<script >
+var proc = '';
+proc += ''
+	+ '<h3> Procedure</h3>'
+
+	+ '<h3> Basic Knowledge</h3> '
+	+ '<ol><li> Answer all the questions and click on next level</ol>'
+
+	+ '<h3> Configuration</h3>'
+	+ '<ol><li> Select Pressure, Thickness of Diaphragm , Radius , Ri and Ro. Click on check configuration'
+	+ '<li>Calculate Y and submit answer.  click on next level button </ol>'
+
+
+
+	+ '<h3> Calculation </h3>'
+	+ '<ol><li> Calculate radial stress, tangential stress for inner and outer radius and submit answer'
+	+ '<li> Calculate R1 and R2 and submit answer'
+	+ '<li> Click on next level button </ol>'
+
+	+ '<h3> Calculate Output Voltage </h3>'
+	+ '<ol><li> Select pressure, voltage and gauge factor  '
+	+ '<li> Calculate output voltage and submit answer '
+	+ '<li>Click on next level </ol>'
+
+	+ '<h3> Characterisation </h3>'
+	+ '<ol><li> Select pressure '
+	+ '<li> Calculate error from above table and submit answer '
+	+ '<li> Calculate sensitivity and submit answer'
+	+ '<li> Click on Result button  </ol>'
+	
+	$(".modal-body11").html(proc);
+	   $(".modal-title1").html("Procedure");
+
+</script>
 
 
 

@@ -4,14 +4,22 @@
 ### Basic Knowledge - 
 - Answer all the questions and click on next level.
 
-### Configuration:-
-- select Pressure , radius of Diaphram , thickness of Diaphram and check/click the configuration button. 
-- Calculate the Y for the configured parameters and submit the answer of Y (here we consider medium of material is air).
-- Repeat the process by changing the preesure and subimit the calculate Y .
-- Take atleast 5-6 reading and observe the table of change of Delfection Y in Diaphram.
+### Configuration
+- Select Pressure, Thickness of Diaphragm , Radius , Ri and Ro. Click on check configuration
+- Calculate Y and submit answer.  click on next level button
 
-### Calculation - 
-- select the values of Ri and Ro and click on next level.
-- Follow the instruction and calculate the answer and submit the answer.
-- After submitting all correct values , instrctions are displaed green shows the process is complted observe the values. 
+### Calculation 
+- Calculate radial stress, tangential stress for inner and outer radius and submit answer
+- Calculate R1 and R2 and submit answer
+- Click on next level button 
 
+### Calculate Output Voltage 
+- Select pressure, voltage and gauge factor  
+- Calculate output voltage and submit answer 
+- Click on next level 
+
+### Characterisation 
+- Select pressure 
+- Calculate error from above table and submit answer 
+- Calculate sensitivity and submit answer
+- Click on Result button  

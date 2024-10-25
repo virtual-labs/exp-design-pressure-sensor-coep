@@ -6,38 +6,38 @@ QuestionsJSON = {
 
 				"QUES": [{
 					
-					"QC": "Which devices measures gases or liquid?",
+					"QC": "What type of diaphragm is used for high-pressure applications?",
 					"ANS": [{
 						"ANSID": false,
-						"content": "Touch sensor"
+						"content": "Thin plastic diaphragm"
 					}, {
 						"ANSID": false,
-						"content": "Temperature sensor"
+						"content": "Rubber diaphragm"
 					}, {
 						"ANSID": false,
-						"content": "Proximity sensor"
+						"content": "Porous ceramic diaphragm"
 					},{
 						"ANSID": true,
-						"content": "Pressure sensor"
+						"content": "Thick metal diaphragm"
 					}]
 				}]
 			}, {
 
 				"QUES": [{
 					
-					"QC": " Pressure is the ________",
+					"QC": " Diaphragm-type pressure sensors are typically classified based on",
 					"ANS": [{
 						"ANSID": false,
-						"content": "mass per unit volume"
+						"content": "Electrical output signal"
 					}, {
 						"ANSID": false,
-						"content": "force per unit volume"
+						"content": "Electrical output signal"
 					}, {
 						"ANSID": true,
-						"content": "force per unit area"
+						"content": "Type of pressure being measured"
 					}, {
 						"ANSID": false,
-						"content": "mass per unit area"
+						"content": "Thickness of the fluid"
 					}]
 					
 				}]
@@ -45,19 +45,19 @@ QuestionsJSON = {
 
 				"QUES": [{
 					
-					"QC": " In general how many pressure sensitive devices are there?",
+					"QC": "In a Wheatstone bridge, what is typically measured to detect changes in the sensor output?",
 					"ANS": [{
 						"ANSID": true,
-						"content": "Four"
+						"content": "Voltage difference"
 					}, {
 						"ANSID": false,
-						"content": "Ten"
+						"content": "current"
 					}, {
 						"ANSID": false,
-						"content": "Five"
+						"content": "Resistance of the wires"
 					}, {
 						"ANSID": false,
-						"content": "Six"
+						"content": "Capacitance"
 					}]
 					
 				}]
@@ -65,19 +65,19 @@ QuestionsJSON = {
 
 				"QUES": [{
 					
-					"QC": "Diaphragms in a pressure sensor are of ________",
+					"QC": "Following type of Weston bridge is used for signal conditioning",
 					"ANS": [{
 						"ANSID": true,
-						"content": "2 Types"
+						"content": "Full bridge"
 					}, {
 						"ANSID": false,
-						"content": "20 Types"
+						"content": "Quter bridge"
 					}, {
 						"ANSID": false,
-						"content": "10 Types"
+						"content": "Half bridge"
 					}, {
 						"ANSID": false,
-						"content": "5 Types"
+						"content": "None of the above"
 					}]
 					
 				}]
@@ -85,19 +85,19 @@ QuestionsJSON = {
 
 				"QUES": [{
 					
-					"QC": "Barometer is which type of sensor________",
+					"QC": "Diphragm displacement y is ___________ to applied pressure. ",
 					"ANS": [{
 						"ANSID": false,
-						"content": "Humidity sensor"
+						"content": "Equal"
 					}, {
 						"ANSID": false,
-						"content": "Temperature sensor"
+						"content": "Inversely proportional"
 					}, {
 						"ANSID": true,
-						"content": "Pressure sensor"
+						"content": "Prapostional"
 					}, {
 						"ANSID": false,
-						"content": "Touch sensor"
+						"content": "None of the these"
 					}]
 					
 				}]
@@ -105,19 +105,19 @@ QuestionsJSON = {
 
 				"QUES": [{
 					
-					"QC": "Touch screen devices use which sensor?",
+					"QC": "Sensitivity of diaphragm pressure sensor is  _________ thickness",
 					"ANS": [{
 						"ANSID": false,
-						"content": "Touch sensor"
+						"content": "Equal"
 					}, {
 						"ANSID": true,
-						"content": "Pressure sensor"
+						"content": "Inversely proportional"
 					}, {
 						"ANSID": false,
-						"content": "Temperature sensor"
+						"content": "Proportional"
 					}, {
 						"ANSID": false,
-						"content": "Humidity sensor"
+						"content": "None of these"
 					}]
 					
 				}]

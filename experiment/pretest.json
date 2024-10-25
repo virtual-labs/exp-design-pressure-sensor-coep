@@ -2,34 +2,34 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Level switch is _____",
+      "question": "What is the primary function of a diaphragm in a pressure sensor?",
       "answers": {
-        "a": "Manual",
-        "b": "Magnetic",
-        "c": "Mechanical",
-        "d": "None of these"
+        "a": "Measure temperature",
+        "b": "Convert mechanical pressure into electrical signal",
+        "c": "Measure humidity",
+        "d": "Control flow rate"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What material is commonly used for diaphragms in pressure sensors?",
+      "answers": {
+        "a": "Plastic",
+        "b": "Aluminum",
+        "c": "Stainless steel",
+        "d": "Copper"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "Level is _____ ",
+      "question": "What happens when pressure is applied to a diaphragm in a pressure sensor?",
       "answers": {
-        "a": "directly proportional to pressure",
-        "b": "Inversly proportional to pressure",
-        "c": "equal proportional to pressure",
-        "d": "Low-volume  measurement"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which of the following is direct method of level measurement?",
-      "answers": {
-        "a": "Ultrasonic level detector",
-        "b": "Sight glass system",
-        "c": "Radar level sensor",
-        "d": "air purge"
+        "a": "The diaphragm melts",
+        "b": "The diaphragm deflects",
+        "c": "The diaphragm expands",
+        "d": "The diaphragm emits light"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -37,26 +37,26 @@
 	
 	
 	{
-      "question": "A major part of the automatic control theory applies to the:",
+      "question": "In a diaphragm-type pressure sensor, how is pressure measured?",
       "answers": {
-        "a": "Casual systems",
-        "b": "Time variant systems",
-        "c": "Linear Time invariant systems",
-        "d": "Non-linear systems"
+        "a": "By sensing temperature changes",
+        "b": "By detecting light absorption",
+        "c": "By measuring the deformation of the diaphragm",
+        "d": "By counting the number of particles in the fluid"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
 	
 	{
-      "question": "Traffic light system is the example of",
+      "question": "In a diaphragm-type pressure sensor, what is often used to convert diaphragm deflection into an electrical signal?",
       "answers": {
-        "a": "Open-loop system",
-        "b": "Close-loop system",
-        "c": "Both a and b",
-        "d": "None of these"
+        "a": "Piezoelectric material",
+        "b": "Strain gauge",
+        "c": "Thermistor",
+        "d": "Optical fiber"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
 	
