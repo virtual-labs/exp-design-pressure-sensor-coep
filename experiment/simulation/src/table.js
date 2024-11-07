@@ -130,7 +130,7 @@ function tableCreateFlow(TimeMasterJson)
 						tableMainDiv +='<div class="col-sm-12"><button type="button"    class="btn btn-danger btnStyle" id="nextLevel"  ><b>NEXT LEVEL </b></button></div>'
 					}
 					
-					$("#tableDesign").html
+//					$("#tableDesign").html(tableMainDiv);
 					$("#main-div-conf").append(tableMainDiv);
 					 tableReading++;
 					 console.log("tableReading "+tableReading);

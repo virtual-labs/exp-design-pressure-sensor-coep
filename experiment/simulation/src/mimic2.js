@@ -28,7 +28,7 @@ function mimic2() {
 	$("#validateCon").prop("hidden",true);
 	$("#tableDesign").html("");
 	x = 50;
-	y = 50;
+	y = 0;
 	step = 1;
 	id = 1;
 	ans = 0;
@@ -266,7 +266,7 @@ function mimic2() {
 			} else {
 				checkAns = 0;
 //				alert("correct answer is " + flow);
-				$("#btnModal").removeClass("btn-danger").addClass("btn-success");
+			$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
 			$("#MsgModal").html("Correct Answer is " + flow);

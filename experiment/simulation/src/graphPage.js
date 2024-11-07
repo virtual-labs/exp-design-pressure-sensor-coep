@@ -4,6 +4,7 @@ function graphReading(){
 $("#main-div-conf").html('');	
 $("#canvas-div").html('');	
 $("#canvas-div-sub").html('');
+ $("#tableDesign").html("");
 
 $("#centerText1").html('CHARACTERIZATION');
 $("#centerText").html('GRAPH');
@@ -204,7 +205,7 @@ tableMainDiv =	'<div class="">'
 	    	       +'<label class="labelstyle" style="margin-left:10px;"><center>Young'+"'"+'s Modulus : 2.07 &times 10 &#x2075 N/mm<sup>2</sup></center> </label>'
 	               +'</div>'
 	               + '<div class="col-sm-5" id="labelSelected">'
-	    	       +'<label class="labelstyle" style="margin-left:10px;"><center>Poison Ratio : 0.25 </center> </label>'
+	    	       +'<label class="labelstyle" style="margin-left:10px;"><center>Poisson Ratio : 0.25 </center> </label>'
 	               +'</div>'
 	               + '<div class="col-sm-1">'	               
 	               +'</div>'	               
@@ -214,7 +215,7 @@ tableMainDiv =	'<div class="">'
 	               + '<div class="col-sm-1">'	               
 	               +'</div>'
 	               + '<div class="col-sm-5" id="labelSelected">'
-	    	       +'<label class="labelstyle" style="margin-left:10px;"><center>Guage Factor (f) : '+gfactor+'</center> </label>'
+	    	       +'<label class="labelstyle" style="margin-left:10px;"><center>Gauge Factor (f) : '+gfactor+'</center> </label>'
 	               +'</div>'
 	               + '<div class="col-sm-5" id="labelSelected">'
 	    	       +'<label class="labelstyle" style="margin-left:10px;"><center>Supply Voltage : '+voltage+'V</center> </label>'

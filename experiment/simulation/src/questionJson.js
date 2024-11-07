@@ -65,7 +65,7 @@ QuestionsJSON = {
 
 				"QUES": [{
 					
-					"QC": "Following type of Weston bridge is used for signal conditioning",
+					"QC": "Following type of Wheatstone bridge is used for signal conditioning",
 					"ANS": [{
 						"ANSID": true,
 						"content": "Full bridge"
