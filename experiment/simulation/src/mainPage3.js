@@ -4,7 +4,7 @@ function mainPage3(){
 	console.log("MAIN PAGE 3");
 	$("#main-div-conf").html('');	
      $("#canvas-div").html('');	
-//     $("#tableDesign").html("");
+     $("#tableDesign").html("");
      $("#selectMethod").prop('disabled',true);
       $("#centerText1").html('Wheat Stone Bridge');
       $("#centerText2").html('CONFIGURATION');
@@ -72,7 +72,7 @@ function mainPage3(){
 	         
 		+'<div class="row" id="wiston" hidden>'
 	   +'<div class="col-sm-6">'
-	   +'<label class="labelstyle">Calculate Ouput Voltage: </label>'
+	   +'<label class="labelstyle">Calculate Output Voltage: </label>'
 	   +'</div>'
 		+'<div class="col-sm-3">'
 		+'<input type="text" id="CalTime" style= 8px;width:80%;"  class=" form-control" />'

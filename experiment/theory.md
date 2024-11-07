@@ -7,7 +7,7 @@ From strength and elasticity of materials, it is seen that deflection y at radiu
 
 ![1](images/img_1.PNG)
 
-where p is the pressure on the diaphragm of radius R and thick- ness t, E being Young's modulus of the diaphragm material and v its Poisson's ratio.
+where p is the pressure on the diaphragm of radius R and thick- ness t, E being Young's modulus of the diaphragm material = 2.07 X 10<sup>5</sup> and v its Poisson's ratio = 0.25.
 
 ![2](images/F_1.PNG)
 
@@ -15,10 +15,10 @@ A special purpose strain gauge rosette which has been designed to take advantage
 
 ![3](images/img_2.PNG)
 
-![4](images/F_2.PNG)
-![5](images/F_3.PNG)
-![6](images/F_4.PNG)
-![7](images/F_5.PNG)
+![4](images/F_4.PNG)
+![5](images/F_5.PNG)
+![6](images/F_2.PNG)
+![7](images/F_3.PNG)
 
 Strain gauges R2 and R4 are oriented to read the radial strain and placed as close to the edge as possible, since the radial strain has maximum negative value at this point.
 Strain gauges R1 and R3 are installed as close to the center as possible and it will read tangential strain, since it is maximum at this point.
@@ -27,6 +27,8 @@ Strain gauges R1 and R3 are installed as close to the center as possible and it 
 
 In Wheatstone bridge tangential elements are in arm R1 and R3 and the radial elements are in arm R2 and R4. So the output voltages Eo for diaphragm sensor using strain gauge rosette supplied by the manufacturer is as 
 
-![8](images/wheatStoneConnections.png)
+![8](images/wheatStoneOP.png)
 
 ![9](images/F_6.PNG)
+
+where, Eb = supply voltage, F = gauge factor
