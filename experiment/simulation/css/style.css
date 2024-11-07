@@ -62,6 +62,17 @@
 	transform: translateY(4px);
 }
 
+ .btn1 {
+        margin-left:10px;
+        margin-right: 10px;
+        margin-top:7px;
+        float:right;
+        margin-bottom:10px;
+        padding: 7px; 
+        border:none; 
+        border-radius: 5px;
+        }
+
 
 .draggable {
             cursor: pointer;

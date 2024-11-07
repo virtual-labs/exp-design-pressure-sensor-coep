@@ -90,7 +90,7 @@ function tableCreate(masterJson)
 function tableCreateFlow(TimeMasterJson)		
 {
 			console.log(TimeMasterJson);
-			var tableMainDiv='<div class="col-sm-12">'
+			var tableMainDiv='<div class="col-sm-12"    style ="overflow-x: auto;height: 300px;margin-top: 10px;">'
 //					+ '<div class=" well well-lg">'
 ////					+'<center class="blink"> TAKE ALL '+applicationName+' READINGS. </center>'
 ////					+'<center><b>Material Type : '+masterJson.demo[0].material+'</b></center>'
