@@ -28,7 +28,7 @@ function result(){
 }		
 
 $("#refer").prop('hidden',true);
-$("#btnForModal").prop("hidden",true);
+$("#procedure-btn").prop("hidden",true);
 		 console.log(data);
 //Basic knowledge	 
 if("corrAns" in data)
@@ -455,7 +455,7 @@ let chart = Highcharts.chart('graph-div', {
         type: 'pie'
     },
     title: {
-        text: 'Observations'
+//        text: 'Observations'
     },
     series: [{
         name: 'Observed',
@@ -466,7 +466,7 @@ let chart = Highcharts.chart('graph-div', {
         pie: {
             dataLabels: {
                 enabled: true,
-                format: '{point.name}: {point.percentage:.1f} %'
+                format: '{point.name}: {point.percentage:.2f} %'
             }
         }
     }

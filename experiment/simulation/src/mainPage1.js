@@ -178,7 +178,7 @@ function mainPage1(){
 					} else if (id == 4)
 					 {		
 					 	modelImg = '<img src="images/F_1.png.png" class="img-responsive" alt="Cinque Terre">'
-						$("#modelMsg123").html("<b class='boldTextBlue'>Formula : Y = 3P(1- V "+unescape('%B2')+") (R"+unescape('%B2')+" - r"+unescape('%B2')+")"+unescape('%B2')+"/16Et"+unescape('%B3')+"</b> ");
+						$("#modelMsg123").html("<b class='boldTextBlue'>Formula : Y = 3P(1- V "+unescape('%B2')+") (R"+unescape('%B2')+")"+unescape('%B2')+"/16Et"+unescape('%B3')+"</b> ");
 
 						
 					} else {
@@ -240,9 +240,13 @@ function mainPage1(){
 		$("#modelMsg123").html("<b class='boldTextRed'>Select Outer Radius </b>");
 	}
 		else if (fluidSelect == 40){
-			if(ri>20 && rt >30){
+			if(ri>20 && rt >30 ){
 				$("#errorPanel").prop("hidden",false);
 				$("#modelMsg123").html("<b class='boldTextRed'>Select Inner and Outer Radius less than  </b>");
+			}else if (ri == rt){
+				$("#errorPanel").prop("hidden",false);
+				$("#modelMsg123").html("<b class='boldTextRed'>Select different inner and outer radius  </b>");
+				
 			}else{
 					$("#errorPanel").prop("hidden",true);
 					$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
@@ -257,10 +261,15 @@ function mainPage1(){
 
 					}	
 			}else if (fluidSelect == 50){
-				if(ri>20 && rt >40){
+				if(ri>20 && rt >40 && ri == rt){
 				$("#errorPanel").prop("hidden",false);
 				$("#modelMsg123").html("<b class='boldTextRed'>Select Inner and Outer Radius less than  </b>");
-			}else{
+			}else if (ri == rt){
+				$("#errorPanel").prop("hidden",false);
+				$("#modelMsg123").html("<b class='boldTextRed'>Select different inner and outer radius  </b>");
+				
+			}
+			else{
 					$("#errorPanel").prop("hidden",true);
 					$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
 					$("#pipeSizeSelect").prop('hidden',true);
@@ -274,10 +283,15 @@ function mainPage1(){
 
 					}
 			}else if (fluidSelect == 60){
-				if(ri>30 && rt >40){
+				if(ri>30 && rt >40 && ri == rt){
 				$("#errorPanel").prop("hidden",false);
 				$("#modelMsg123").html("<b class='boldTextRed'>Select Inner and Outer Radius less than  </b>");
-				}else{
+				}
+				else if (ri == rt){
+				$("#errorPanel").prop("hidden",false);
+				$("#modelMsg123").html("<b class='boldTextRed'>Select different inner and outer radius  </b>");
+				
+			}else{
 					$("#errorPanel").prop("hidden",true);
 					$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
 					$("#pipeSizeSelect").prop('hidden',true);
@@ -291,10 +305,15 @@ function mainPage1(){
 
 					}
 			}else if (fluidSelect == 70){
-				if(ri>40 && rt >60){
+				if(ri>40 && rt >60 && ri == rt){
 				$("#errorPanel").prop("hidden",false);
 				$("#modelMsg123").html("<b class='boldTextRed'>Select Inner and Outer Radius less than  </b>");
 				}
+				else if (ri == rt){
+				$("#errorPanel").prop("hidden",false);
+				$("#modelMsg123").html("<b class='boldTextRed'>Select different inner and outer radius  </b>");
+				
+			}
 				else{
 					$("#errorPanel").prop("hidden",true);
 					$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		

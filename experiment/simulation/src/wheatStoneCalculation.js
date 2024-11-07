@@ -1,5 +1,22 @@
 function bridgeCalculate(){
 	$("#canvas-div").html('');
+	$('#canvas-div').removeAttr('width');
+	$('#canvas-div').removeAttr('height');
+	var w =900;
+	var h = 900;
+
+	var width = $(window).width();
+
+	if ($(window).width() < 500) {
+		width = $(this).width();
+		paper = new Raphael(document.getElementById('canvas-div'), '100%', '100%');
+		paper.setViewBox(0, 0, w, h, true);
+		paper.setSize('100%', '100%');
+	} else {
+		paper = new Raphael(document.getElementById('canvas-div'), '100%', '100%');
+		paper.setViewBox(0, 0, w, h, true);
+		paper.setSize('100%', '100%');
+	}
 	x = 100;
 	y = 50;
 	flg = 3;
@@ -75,7 +92,7 @@ function bridgeCalculate(){
 	
 	
 	$("#wiston").prop('hidden',false);
-	var paper = new Raphael(document.getElementById('canvas-div'),1000,1000);
+//	var paper = new Raphael(document.getElementById('canvas-div'),1000,1000);
 	 wheatStone = paper.image("images/wheatStoneBridgeE1.png",(x-50), (y-100),700, 600);
 	 var l1 = paper.path("M "+(x-50)+" "+(y-50)+" l 700 0 l 0 450 l -700 0 z ").attr({ 'stroke': '#000', 'stroke-width': 1,'stroke-dasharray': '--'});
 	 var l2 = paper.path("M "+(x-50)+" "+(y+450)+" l 700 0 l 0 250 l -700 0 z ").attr({ 'stroke': '#000', 'stroke-width': 1,'stroke-dasharray': '--'});

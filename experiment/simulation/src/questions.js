@@ -115,7 +115,7 @@
 						 data.corrAns = dataQues;
 						 console.log(data);
 						 
-						 $("#modelMsg").html("<b class='boldTextGreen'>Test Submitted Successfully .<br> Number of Correct Answers  : " + ansCount+"</b>");
+						 $("#modelMsg").html("<b class='boldTextGreen'>Test Submitted Successfully .<br> Correct Answers  : " + ansCount+"</b>");
                          $('#nextLevelConfig').prop('hidden',false);
 						 
 						    $('#testSubmit').prop('hidden',true); 
@@ -125,13 +125,13 @@
 					
 					$('#nextLevelConfig').on('click', function() {	
 						 
-	      if(ansCount != 0){
+	     
 		
 				$("#main-div-conf").html("");
 	             $("#canvas-div").html("");
 				mainPage1();
 //				  mimic();
-	} 
+	
 	});	
 					
 });

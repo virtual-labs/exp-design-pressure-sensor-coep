@@ -313,7 +313,7 @@ function checkAllConnections() {
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
 				 +'<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Poisson Ratio : 0.25</center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-2" id="labelSelected">'
@@ -378,7 +378,7 @@ function checkAllConnections() {
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
 				 +'<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Poisson Ratio : 0.25 </center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-2" id="labelSelected">'
@@ -440,7 +440,7 @@ function checkAllConnections() {
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
 				 +'<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Poisson Ratio : 0.25 </center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-2" id="labelSelected">'
@@ -502,7 +502,7 @@ function checkAllConnections() {
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
 				 +'<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Poisson Ratio : 0.25 </center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-2" id="labelSelected">'
@@ -578,7 +578,7 @@ function checkAllConnections() {
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
 				 +'<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Poisson Ratio : 0.25 </center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-2" id="labelSelected">'
@@ -645,7 +645,7 @@ function checkAllConnections() {
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
 				 +'<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Poisson Ratio : 0.25 </center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-2" id="labelSelected">'
@@ -710,7 +710,7 @@ function checkAllConnections() {
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
 				 +'<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Poisson Ratio : 0.25 </center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-2" id="labelSelected">'
@@ -773,7 +773,7 @@ function checkAllConnections() {
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
 				 +'<div class="col-sm-3" id="labelSelected">'
-	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Material : 8.852 &times 10<sup>-12</sup> </center> </label>'
+	               +'<label class="labelstyle" style="margin-left:10px;"> <center>Poisson Ratio : 0.25 </center> </label>'
 	               +'</div>'
 	              
 	               + '<div class="col-sm-2" id="labelSelected">'
