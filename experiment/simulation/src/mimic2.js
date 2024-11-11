@@ -393,7 +393,7 @@ function mimic2() {
 			id = 1;
 			
 			
-			smallR = ri;
+			smallR = rt;
 			divR = smallR / radius;
 			Sr = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (3 / 0.25 + 1) * (divR * divR));
 			console.log("xvlaue " + Sr);
@@ -405,7 +405,7 @@ function mimic2() {
 			ans = parseFloat(ans1);
 			step5_div = '<div class="row" id="timeAnswer">'
 			+ '<div class="col-sm-6">'
-			+ '<label  id=""  class="" style="font-size:16px;margin:15px 10px ;"> Calculate Er  at Ri = '+ri+'mm   </label>'
+			+ '<label  id=""  class="" style="font-size:16px;margin:15px 10px ;"> Calculate Radial Strain  at Ro = '+rt+'mm   </label>'
 			+ '</div>'
 			+ '<div class="col-sm-3">'
 			+ '<input type="text" id="stp5Ans" style=margin:15px 10px;width:100%;"  class=" form-control" />'
@@ -503,7 +503,7 @@ function mimic2() {
 			
 		
 			
-			smallR = rt;
+			smallR = ri;
 			divR = smallR / radius;
 			Sr1 = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (3 / 0.25 + 1) * (divR * divR));
 			console.log("xvlaue " + Sr);
@@ -516,7 +516,7 @@ function mimic2() {
 			
 			step6_div = '<div class="row" id="timeAnswer">'
 			+ '<div class="col-sm-6">'
-			+ '<label  id=""  class="" style="font-size:16px;margin:15px 10px ;"> Calculate Et  at Ro = '+rt+' mm :  </label>'
+			+ '<label  id=""  class="" style="font-size:16px;margin:15px 10px ;"> Calculate Tangential Strain  at Ri = '+ri+' mm :  </label>'
 			+ '</div>'
 			+ '<div class="col-sm-3">'
 			+ '<input type="text" id="stp6Ans" style=margin:15px 10px;width:100%;"  class=" form-control" />'
@@ -916,11 +916,11 @@ if (radius == 70 ){
 		tempJson={};
 //		var press = TimeMasterJson.demo[i].frequency ;
 		var press = i
-		smallR = ri;
+		smallR = rt;
 		divR = smallR / radius;
 		var Sr = (3 * press * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (3 / 0.25 + 1) * (divR * divR));
 		var St = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (1 / 0.25 + 3) * (divR * divR));
-		smallR1 = rt;
+		smallR1 = ri;
 		divR1 = smallR1 / radius;
 		var Sr1 = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (3 / 0.25 + 1) * (divR1 * divR1));
 		var St1 = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (1 / 0.25 + 3) * (divR1 * divR1));
