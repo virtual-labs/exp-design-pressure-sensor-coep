@@ -134,7 +134,7 @@ var sortedData = TimeMasterJson.volt.sort(function(a, b) {
 
 
 tableMainDiv =	'<div class="">'
-			        + '<table class=" table table-bordered " style="margin:10px; text-align: center">'
+			        + '<table class=" table table-bordered "  style ="overflow-x: auto;height: 300px;margin-top: 10px;">'
 					+ ' <thead>'
 					+ '  <tr style = "BACKGROUND-COLOR: #072647; color:#fff; ">'
 					+ '  <th><center>Sr.No</center></th>'
@@ -450,7 +450,7 @@ tableMainDiv =	'<div class="">'
 	    var sencnt = 0;  
 	 $("#submitSensitivityCheck").click(function(){
 		 sencnt++;
-		sensitivityCal = ((ranVal1/outVal1)*1000).toFixed(2);
+		sensitivityCal = (outVal1/selValue).toFixed(2);
 //		sensitivityCal = sensitivityCal.toFixed(2);
 		sensitivityCal = parseFloat(sensitivityCal);
 		
