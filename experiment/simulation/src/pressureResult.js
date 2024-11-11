@@ -29,6 +29,7 @@ function result(){
 
 $("#refer").prop('hidden',true);
 $("#procedure-btn").prop("hidden",true);
+$("#simDemo").prop("hidden",true);
 		 console.log(data);
 //Basic knowledge	 
 if("corrAns" in data)
@@ -111,7 +112,7 @@ var htm = ''
 
 	+ '<div class="col-md-12">'
 	+ ' <div class="panel remarkBground" >'
-	+ ' <div class="panel-body remark" ><center> <br> <b> Pressure Sensor Experiment is Completed Sucessfully !! </b>'
+	+ ' <div class="panel-body remark" style = "font-size:20px;" ><center> <br> <b> Pressure Sensor Experiment is Completed Sucessfully !! </b>'
 	+ '<br> <b> </b></center></div>'
 	+ '</div>'
 	+ '</div>'
@@ -455,7 +456,7 @@ let chart = Highcharts.chart('graph-div', {
         type: 'pie'
     },
     title: {
-//        text: 'Observations'
+        text: ''
     },
     series: [{
         name: 'Observed',
