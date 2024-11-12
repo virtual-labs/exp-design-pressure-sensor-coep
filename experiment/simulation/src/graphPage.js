@@ -134,7 +134,7 @@ var sortedData = TimeMasterJson.volt.sort(function(a, b) {
 
 
 tableMainDiv =	'<div class="">'
-			        + '<table class=" table table-bordered "  style ="overflow-x: auto;height: 300px;margin-top: 10px;">'
+			        + '<table class=" table table-bordered "   style ="overflow-x: auto;height: 200px;margin-top: 10px;">'
 					+ ' <thead>'
 					+ '  <tr style = "BACKGROUND-COLOR: #072647; color:#fff; ">'
 					+ '  <th><center>Sr.No</center></th>'

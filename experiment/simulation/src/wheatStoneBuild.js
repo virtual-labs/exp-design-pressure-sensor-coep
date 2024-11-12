@@ -306,7 +306,8 @@ function checkAllConnections() {
 				       +'</div>'
 				   
 				  	  
-				  	   $("#main-div-conf").html(htm); 
+				  	   $("#main-div-conf").html(htm);
+				  	    $("#main-div-conf").css('height', '100%'); 
 //				 $("#calculatePressure").html(Calculate);	 
 		 
 		  
@@ -357,7 +358,7 @@ function checkAllConnections() {
 						data.constLib = tempCountJson;  
 //            return; // Exit the function since the second combination is valid 
            $("#main-div-conf").html("");
-		
+		 $("#main-div-conf").css('height', '100%'); 
 		htm = '<div class="row" id="timeAnswer">'
 				     +'<div class="col-sm-6">'
 				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculate radial stress  at Ri = '+ri+' mm :</label>'
@@ -419,7 +420,7 @@ function checkAllConnections() {
 						tempCountJson.invalidCnt = invalidConnCnt; 						
 						data.constLib = tempCountJson;
 			 $("#main-div-conf").html("");
-		
+		 $("#main-div-conf").css('height', '100%'); 
 		htm = '<div class="row" id="timeAnswer">'
 				     +'<div class="col-sm-6">'
 				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculate radial stress  at Ri = '+ri+' mm :</label>'
@@ -481,7 +482,7 @@ function checkAllConnections() {
 						tempCountJson.invalidCnt = invalidConnCnt; 						
 						data.constLib = tempCountJson;
 			 $("#main-div-conf").html("");
-		
+		 $("#main-div-conf").css('height', '100%'); 
 		htm = '<div class="row" id="timeAnswer">'
 				     +'<div class="col-sm-6">'
 				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculate radial stress  at Ri = '+ri+' mm :</label>'
@@ -557,7 +558,7 @@ function checkAllConnections() {
 						tempCountJson.invalidCnt = invalidConnCnt; 						
 						data.constLib = tempCountJson;
 				   $("#main-div-conf").html("");
-		
+		 $("#main-div-conf").css('height', '100%'); 
 		htm = '<div class="row" id="timeAnswer">'
 				     +'<div class="col-sm-6">'
 				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculate radial stress  at Ri = '+ri+' mm :</label>'
@@ -573,7 +574,7 @@ function checkAllConnections() {
 				  	  
 				  	   $("#main-div-conf").html(htm); 
 //				 $("#calculatePressure").html(Calculate);	 
-		 
+		  $("#main-div-conf").css('height', '100%'); 
 		  
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
@@ -624,7 +625,7 @@ function checkAllConnections() {
 						tempCountJson.invalidCnt = invalidConnCnt; 						
 						data.constLib = tempCountJson;
              $("#main-div-conf").html("");
-		
+		 $("#main-div-conf").css('height', '100%'); 
 		htm = '<div class="row" id="timeAnswer">'
 				     +'<div class="col-sm-6">'
 				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculate radial stress  at Ri = '+ri+' mm :</label>'
@@ -640,7 +641,7 @@ function checkAllConnections() {
 				  	  
 				  	   $("#main-div-conf").html(htm); 
 //				 $("#calculatePressure").html(Calculate);	 
-		 
+		  $("#main-div-conf").css('height', '100%'); 
 		  
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
@@ -689,7 +690,7 @@ function checkAllConnections() {
 						tempCountJson.invalidCnt = invalidConnCnt; 						
 						data.constLib = tempCountJson; 
               $("#main-div-conf").html("");
-		
+		 $("#main-div-conf").css('height', '100%'); 
 		htm = '<div class="row" id="timeAnswer">'
 				     +'<div class="col-sm-6">'
 				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculate radial stress  at Ri = '+ri+' mm :</label>'
@@ -705,7 +706,7 @@ function checkAllConnections() {
 				  	  
 				  	   $("#main-div-conf").html(htm); 
 //				 $("#calculatePressure").html(Calculate);	 
-		 
+		  $("#main-div-conf").css('height', '100%'); 
 		  
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
@@ -752,7 +753,7 @@ function checkAllConnections() {
 						tempCountJson.invalidCnt = invalidConnCnt; 						
 						data.constLib = tempCountJson;
 			 $("#main-div-conf").html("");
-		
+		 $("#main-div-conf").css('height', '100%'); 
 		htm = '<div class="row" id="timeAnswer">'
 				     +'<div class="col-sm-6">'
 				       +'<label  id=""  class="" style="font-size:16px;margin-top:35px;">Calculate radial stress  at Ri = '+ri+' mm :</label>'
@@ -768,7 +769,7 @@ function checkAllConnections() {
 				  	  
 				  	   $("#main-div-conf").html(htm); 
 //				 $("#calculatePressure").html(Calculate);	 
-		 
+		  $("#main-div-conf").css('height', '100%'); 
 		  
 			   $("#canvas-div").html("");
 			 	labels2 = '<div class="row" >'
