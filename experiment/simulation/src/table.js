@@ -40,7 +40,7 @@ function tableCreate(masterJson)
 					
 					 if(tableReading >= 0) //change 0 to no how many readings we want
 					 {
-						tableMainDiv +='<div class="col-sm-12"><button type="button"    class="btn btn-danger btnStyle" id="nextLevel"  ><b>NEXT LEVEL </b></button></div>'
+						tableMainDiv +='<div class="col-sm-12"><button type="button"    class="btn btn-danger btnStyle" id="nextLevel" style="margin-bottom: 15px;" ><b>NEXT LEVEL </b></button></div>'
 					}
 					
 					$("#tableDesign").html(tableMainDiv);

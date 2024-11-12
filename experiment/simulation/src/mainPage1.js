@@ -70,7 +70,7 @@ function mainPage1(){
 	   
 	   
 	   +'<div class="row"><div class="col-sm-6" >'
-       +'<label class="labelstyle"> Select the Ri (mm) : </label>'   
+       +'<label class="labelstyle"> Select Ri (mm) : </label>'   
        +'</div>'
        +'<div class="col-sm-6">'
 	   +'<select  class="form-control selectConf" id="ri"  style="height:auto;">'

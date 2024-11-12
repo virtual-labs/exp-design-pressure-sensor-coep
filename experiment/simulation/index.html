@@ -75,7 +75,7 @@
 <header>
 		<img class="Coeplogo" src='images/COEPlogo.png' />
 		<img class="VlabLogo" src='images/vlablogo.jpg' />
-		<span id="colgName">COEP Technological University</span>		
+		<span id="colgName">COEP TECHNOLOGICAL UNIVERSITY PUNE</span>		
 		
 	</header>
 
@@ -276,14 +276,16 @@ function resetDivSize() {
     const div = document.getElementById('canvas-div');  
     
     // Resetting width and height to auto  
-    div.style.width = 'auto';  
+//     div.style.width = 'auto';  
     div.style.height = 'auto'; 
+		$("#canvas-div").css("margin-bottom", "20px");
     
  const div1 = document.getElementById('canvas');  
     
     // Resetting width and height to auto  
-    div1.style.width = 'auto';  
-    div1.style.height = 'auto';  
+//     div1.style.width = 'auto';  
+    div1.style.height = 'auto'; 
+ $("#canvas").css("margin-bottom", "20px");
     
 }  
 </script>
@@ -334,7 +336,7 @@ $("#simDemo").on("click", function(){
 
 	// Define the start and end skip times (in seconds)
 	var skipStart = 0;  // Skip the first 5 seconds
-	var skipEnd = 5;    // Skip the last 5 seconds
+	var skipEnd = 6;    // Skip the last 5 seconds
 
 //	video.onloadedmetadata = function() { 
 	    // Get the duration of the video
