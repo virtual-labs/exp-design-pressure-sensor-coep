@@ -2,7 +2,7 @@ var Er = 0;
 var Et = 0;
 array = [];
 
-console.log(data);
+
 function mimic2() {
 	//	var paper = new Raphael(document.getElementById('canvas-div'), 1000, 1000);
 	resetDivSize();
@@ -36,15 +36,14 @@ function mimic2() {
 	pressure = parseInt(frequencySelect);
 	thickness = parseInt(distSelect);
 	radius = parseInt(fluidSelect);
-	console.log(pressure);
-	console.log(TimeMasterJson);
+	
 	//	smallR = 10;
 	
 //	var p1 = masterJson.demo[0].frequency
 
 	poisRto = 0.25;
 	E = 2.07 * Math.pow(10, 5);
-	console.log("young module" + E);
+	
 	smallR = ri;
 	divR = smallR / radius;
 	
@@ -56,13 +55,13 @@ function mimic2() {
 
 	var tor_sen;
 	if (step == 1) {
-		console.log("y"+y_ans);
+		
 
 		smallR = ri;
 		divR = smallR / radius;
-		console.log("divsion r " + divR);
+		
 		Sr = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (3 / 0.25 + 1) * (divR * divR));
-		console.log("xvlaue " + Sr);
+		
 		step = 2;
 		ans1 = Sr.toFixed(2);
 		ans = parseFloat(ans1);
@@ -75,7 +74,7 @@ function mimic2() {
 		id = 1;
 	
 		St = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (1 / 0.25 + 3) * (divR * divR));
-		console.log("xvlaue " + St);
+		
 
 		step = 2;
 		ans1 = St.toFixed(2);
@@ -97,7 +96,7 @@ function mimic2() {
 		$("#step2_div_submit").click(function() {
 			calcnt++;
 			var speedAns = $("#stp2Ans").val().trim();
-		console.log("ans check" + speedAns);
+		
 		flow = ans;
 		if (speedAns ==" " || speedAns == isAlphabetical(speedAns)){
 				$(".modal-header").html("Error Message");
@@ -182,7 +181,7 @@ function mimic2() {
 			smallR = rt;
 			divR = smallR / radius;
 			Sr1 = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (3 / 0.25 + 1) * (divR * divR));
-			console.log("xvlaue " + Sr);
+		
 			step = 2;
 			ans1 = Sr1.toFixed(2);
 			ans = parseFloat(ans1);
@@ -201,7 +200,7 @@ function mimic2() {
 		$("#step3_div_submit").click(function() {
 			calcnt++;
 			var speedAns = $("#stp3Ans").val().trim();
-		console.log("ans check" + speedAns);
+		
 		flow = ans;
 		if (speedAns ==" " || speedAns == isAlphabetical(speedAns)){
 				$(".modal-header").html("Error Message");
@@ -290,7 +289,7 @@ function mimic2() {
 			smallR = rt;
 			divR = smallR / radius;
 			St1 = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (1 / 0.25 + 3) * (divR * divR));
-			console.log("xvlaue " + St);
+		
 
 	
 			ans1 = St1.toFixed(2);
@@ -311,7 +310,7 @@ function mimic2() {
 		$("#step4_div_submit").click(function() {
 			calcnt++;
 			var speedAns = $("#stp4Ans").val().trim();
-		console.log("ans check" + speedAns);
+		
 		flow = ans;
 		if (speedAns ==" " || speedAns == isAlphabetical(speedAns)){
 				$(".modal-header").html("Error Message");
@@ -396,11 +395,11 @@ function mimic2() {
 			smallR = rt;
 			divR = smallR / radius;
 			Sr = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (3 / 0.25 + 1) * (divR * divR));
-			console.log("xvlaue " + Sr);
+			
 			St = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (1 / 0.25 + 3) * (divR * divR));
-			console.log("xvlaue " + St);
+			
 			Er = (Sr - 0.25 * St) / E;
-			console.log("er value " + Er);
+			
 			ans1 = Er.toFixed(6);
 			ans = parseFloat(ans1);
 			step5_div = '<div class="row" id="timeAnswer">'
@@ -418,7 +417,7 @@ function mimic2() {
 		$("#step5_div_submit").click(function() {
 			calcnt++;
 			var speedAns = $("#stp5Ans").val().trim();
-		console.log("ans check" + speedAns);
+	
 		flow = ans;
 		
 		if (speedAns ==" " || speedAns == isAlphabetical(speedAns)){
@@ -506,11 +505,11 @@ function mimic2() {
 			smallR = ri;
 			divR = smallR / radius;
 			Sr1 = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (3 / 0.25 + 1) * (divR * divR));
-			console.log("xvlaue " + Sr);
+			
 			St1 = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (1 / 0.25 + 3) * (divR * divR));
-			console.log("xvlaue " + St);
+		
 			Et = (St1 - 0.25 * Sr1) / E;
-				console.log("er value " + Et);
+				
 			ans1 = Et.toFixed(6);
 			ans = parseFloat(ans1);
 			
@@ -530,7 +529,7 @@ function mimic2() {
 		$("#step6_div_submit").click(function() {
 			calcnt++;
 			var speedAns = $("#stp6Ans").val().trim();
-		console.log("ans check" + speedAns);
+		
 		flow = ans;
 		if (speedAns ==" " || speedAns == isAlphabetical(speedAns)){
 				$(".modal-header").html("Error Message");
@@ -620,7 +619,7 @@ function mimic2() {
 					
 					calculation.calculation = calcnt;
 					data.calculation = calculation;
-					console.log(data);
+					
 					mainPage3();
 					tableCreateFlow(TimeMasterJson);
 			});
@@ -834,7 +833,7 @@ if (radius == 70 ){
 	$("#btnAnsCheck").click(function() {
 		calcnt++;
 		var speedAns = $("#checkAns").val().trim();
-		console.log("ans check" + speedAns);
+		
 		flow = ans;
 		
 		if (speedAns ==" " || speedAns == isAlphabetical(speedAns)){
@@ -926,7 +925,7 @@ if (radius == 70 ){
 		var St1 = (3 * pressure * radius * radius * 0.25) / (8 * thickness * thickness) * ((1 / 0.25 + 1) - (1 / 0.25 + 3) * (divR1 * divR1));
 		var Er = (Sr - 0.25 * St) / E;
 		var Et = (St1 - 0.25 * Sr1) / E;
-		console.log(press+"pressure"+Sr+"sr");
+		
 						tempJson.preesure = press;
 						tempJson.sr = Sr;
 						tempJson.st = St;
@@ -938,7 +937,7 @@ if (radius == 70 ){
 						tempJson.et1 = Et.toFixed(6);
 						array.push(tempJson);
 						TimeMasterJson.reading = array;
-						console.log(TimeMasterJson);
+						
 						
 		}				
 					

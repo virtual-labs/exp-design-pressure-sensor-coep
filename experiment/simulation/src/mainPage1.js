@@ -214,14 +214,7 @@ function mainPage1(){
 		 rt = $("#rt").val();
 		  flag = 0;
 			
-				
-//				dataJson.pipe = pipeSize ;
-//				dataJson.fluid = fluidType;
-//				dataJson.material = floatMaterial;
-		   console.log("main frequency  =  "+ frequencySelect);	  
-		     console.log("distance =   "+distSelect);
-		    console.log("fluid TypeSelect =   "+fluidSelect);
-		   
+
 	if(frequencySelect==0){
 		$("#errorPanel").prop("hidden",false);
 		$("#modelMsg123").html("<b class='boldTextRed'>Select Pressure </b>");
