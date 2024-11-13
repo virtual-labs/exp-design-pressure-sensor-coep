@@ -39,19 +39,19 @@ radius = parseInt(fluidSelect);
  	smallR = 0 ;
 	poisRto = 0.25;
 	E = 2.07 * Math.pow(10, 5);
-	console.log("young module"+E);
+	
 	diffR = (Math.pow(radius,2)- Math.pow(smallR,2));
-	console.log("radius diff"+diffR);
+	
 	numY = 3 * pressure *(1 - Math.pow(poisRto, 2))* Math.pow(diffR,2);
-	console.log("numarator"+numY);
+	
 	denoY = 16 * E *(Math.pow(thickness, 3));
-	console.log("denostor"+denoY);
+	
 	y_ans = numY / denoY;
 	calculateTime = y_ans.toFixed(2);
-	console.log("y"+y_ans);
+	
 	
 
-console.log("Time Calculation"+calculateTime)
+
 
 
 var diaLine = paper.path("M "+(x+200)+" "+(y+200)+" l 0 0").attr({ 'stroke': '#000', 'stroke-width': 10});
@@ -281,7 +281,7 @@ function addToMasterJSON(){
 						tempJson.calculateTime = calculateTime;
 						ArrayJson.push(tempJson);
 						TimeMasterJson.demo = ArrayJson;
-						console.log(TimeMasterJson);
+						
 						tableCreate(TimeMasterJson);
 
 }

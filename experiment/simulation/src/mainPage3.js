@@ -1,7 +1,7 @@
 var ArrayJson=[];
 var voltflag = 0; var er,et;
 function mainPage3(){
-	console.log("MAIN PAGE 3");
+	
 	$("#main-div-conf").html('');	
      $("#canvas-div").html('');	
      $("#tableDesign").html("");
@@ -187,7 +187,7 @@ function addToMasterJSON(){
 						tempJson.VoltageOutput = finalAns;
 						ArrayJson.push(tempJson);
 						thicknessMasterJson.demo = thicknessArrayJson;
-						console.log(thicknessMasterJson);
+						
 //						tableCreate(masterJson);
 }
 

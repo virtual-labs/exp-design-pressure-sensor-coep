@@ -2,7 +2,7 @@
 function tableCreate(masterJson)		
 {			
 			configy = {};
-			console.log(masterJson);
+			
 			var tableMainDiv='<div class="col-sm-12">'
 //					+ '<div class=" well well-lg">'
 ////					+'<center class="blink"> TAKE ALL '+applicationName+' READINGS. </center>'
@@ -45,7 +45,7 @@ function tableCreate(masterJson)
 					
 					$("#tableDesign").html(tableMainDiv);
 					 tableReading++;
-					 console.log("tableReading "+tableReading);
+					
 					$("#nextLevel").click(function() {
 						$("#selectMethod").prop('hidden',true);
 						$("#submitconfig").prop('disabled',true);
@@ -89,7 +89,7 @@ function tableCreate(masterJson)
 //Flow MEASUREMENT
 function tableCreateFlow(TimeMasterJson)		
 {
-			console.log(TimeMasterJson);
+			
 			var tableMainDiv='<div class="col-sm-12"    style ="overflow-x: auto;height: 300px;margin-top: 10px;">'
 //					+ '<div class=" well well-lg">'
 ////					+'<center class="blink"> TAKE ALL '+applicationName+' READINGS. </center>'
@@ -133,7 +133,7 @@ function tableCreateFlow(TimeMasterJson)
 //					$("#tableDesign").html(tableMainDiv);
 					$("#main-div-conf").append(tableMainDiv);
 					 tableReading++;
-					 console.log("tableReading "+tableReading);
+					
 					$("#nextLevel").click(function() {
 						$("#selectMethod").prop('hidden',false);
 						$("#submitconfig").prop('disabled',true);
@@ -162,7 +162,7 @@ function tableCreateFlow(TimeMasterJson)
 //Level MEASUREMENT
 function tableCreateVoltage(TimeMasterJson)		
 {
-			console.log(masterJson);
+			
 			var tableMainDiv='<div class="col-sm-12">'
 //					+ '<div class=" well well-lg">'
 ////					+'<center class="blink"> TAKE ALL '+applicationName+' READINGS. </center>'
@@ -205,7 +205,7 @@ function tableCreateVoltage(TimeMasterJson)
 					
 					$("#tableDesign").html(tableMainDiv);
 					 tableReading++;
-					 console.log("tableReading "+tableReading);
+					 
 					$("#nextLevel").click(function() {
 						$("#selectMethod").prop('hidden',false);
 						$("#submitconfig").prop('disabled',true);
