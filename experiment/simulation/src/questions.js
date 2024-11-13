@@ -113,7 +113,7 @@
 						}
 						dataQues.corrAns = ansCount;
 						 data.corrAns = dataQues;
-						 console.log(data);
+						
 						 
 						 $("#modelMsg").html("<b class='boldTextGreen'>Test Submitted Successfully .<br> Correct Answers  : " + ansCount+"</b>");
                          $('#nextLevelConfig').prop('hidden',false);
