@@ -7,9 +7,10 @@ From strength and elasticity of materials, it is seen that deflection y at radiu
 
 ![1](images/img_1.PNG) <br>
 ![2](images/F_1.PNG) -----(1)<br>
-where p is the pressure on the diaphragm,<br>
-  radius R,<br>
-  thickness t, <br>
+where,<br> 
+  p is the pressure on the diaphragm,<br>
+  Radius R,<br>
+  Thickness t, <br>
   E being Young's modulus of the diaphragm material = 2.07 X 10<sup>5</sup> and <br>
   ν its Poisson's ratio = 0.25.<br>
 
