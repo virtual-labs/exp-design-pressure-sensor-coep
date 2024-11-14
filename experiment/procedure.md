@@ -2,7 +2,7 @@
 ### Procedure 
 
 ### Basic Knowledge - 
-- Answer all the questions and click on next level.
+- Answer all the questions and click on next level
 
 ### Configuration
 - Select Pressure, Thickness of Diaphragm , Radius , Ri and Ro. Click on check configuration
