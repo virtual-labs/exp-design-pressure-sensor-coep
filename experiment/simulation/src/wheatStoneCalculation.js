@@ -306,7 +306,7 @@ if (radius == 70 ){
 					{
 					if (id <= 3) {
 						if (flowAns == outVolt) {
-							$("#modelMsg123").html("<b class='boldTextGreen'>Correct Answer</b> ");
+							$("#modelMsg123").html("<b class='boldTextGreen'>Correct answer</b> ");
 							$("#timeAnswer").prop('hidden',true);
 							id = 1;
 							
@@ -343,7 +343,7 @@ if (radius == 70 ){
 //						flow = flowAns.toFixed(2);
 						if (flowAns == outVolt) {
 							
-							$("#modelMsg123").html("<b class='boldTextGreen'>Correct Answer</b>");
+							$("#modelMsg123").html("<b class='boldTextGreen'>Correct answer</b>");
 							$("#timeAnswer").prop('hidden',true);
 							
 //							addToMasterJSON();
@@ -362,7 +362,7 @@ if (radius == 70 ){
 					
 						} else {
 
-							 $("#modelMsg123").html("<b class='boldTextBlue'>Correct Answer is  " +outVolt+'</b>');
+							 $("#modelMsg123").html("<b class='boldTextBlue'>Correct answer is  " +outVolt+'</b>');
 						}
 					}
 					id++;

@@ -1,5 +1,5 @@
 ### Aim: 
-Design of diaphragm type pressure sensor and Evaluate Sensor Performance
+Design of diaphragm type pressure sensor and evaluate sensor performance
 
 
 ### Objectives:

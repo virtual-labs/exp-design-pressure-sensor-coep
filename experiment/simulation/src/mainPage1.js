@@ -161,7 +161,7 @@ function mainPage1(){
 					{
 					if (id <= 3) {
 						if (flowAns == calculateTime) {
-							$("#modelMsg123").html("<b class='boldTextGreen'>Correct Answer</b> ");
+							$("#modelMsg123").html("<b class='boldTextGreen'>Correct answer</b> ");
 							$("#timeAnswer").prop('hidden',true);
 							id = 1;
 							
@@ -186,7 +186,7 @@ function mainPage1(){
 //						flow = flowAns.toFixed(2);
 						if (flowAns == calculateTime) {
 							
-							$("#modelMsg123").html("<b class='boldTextGreen'>Correct Answer</b>");
+							$("#modelMsg123").html("<b class='boldTextGreen'>Correct answer</b>");
 							$("#timeAnswer").prop('hidden',true);
 							
 							addToMasterJSON();
@@ -195,7 +195,7 @@ function mainPage1(){
 					
 						} else {
 
-							 $("#modelMsg123").html("<b class='boldTextBlue'>Correct Answer is  " +calculateTime+'</b>');
+							 $("#modelMsg123").html("<b class='boldTextBlue'>Correct answer is  " +calculateTime+'</b>');
 						}
 					}
 					id++;
@@ -235,14 +235,14 @@ function mainPage1(){
 		else if (fluidSelect == 40){
 			if(ri>20 && rt >30 ){
 				$("#errorPanel").prop("hidden",false);
-				$("#modelMsg123").html("<b class='boldTextRed'>Select Inner and Outer Radius less than  </b>");
+				$("#modelMsg123").html("<b class='boldTextRed'>Select inner and outer radius less than radius </b>");
 			}else if (ri == rt){
 				$("#errorPanel").prop("hidden",false);
 				$("#modelMsg123").html("<b class='boldTextRed'>Select different inner and outer radius  </b>");
 				
 			}else{
 					$("#errorPanel").prop("hidden",true);
-					$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
+					$("#modelMsg123").html("<b class='boldTextGreen'>Configured successfully</b>");		
 					$("#pipeSizeSelect").prop('hidden',true);
 					$("#fluidType").prop('disabled',true);
 					$("#distance").prop('disabled',true);
@@ -256,7 +256,7 @@ function mainPage1(){
 			}else if (fluidSelect == 50){
 				if(ri>20 && rt >40 && ri == rt){
 				$("#errorPanel").prop("hidden",false);
-				$("#modelMsg123").html("<b class='boldTextRed'>Select Inner and Outer Radius less than  </b>");
+				$("#modelMsg123").html("<b class='boldTextRed'>Select inner and outer radius less than radius </b>");
 			}else if (ri == rt){
 				$("#errorPanel").prop("hidden",false);
 				$("#modelMsg123").html("<b class='boldTextRed'>Select different inner and outer radius  </b>");
@@ -264,7 +264,7 @@ function mainPage1(){
 			}
 			else{
 					$("#errorPanel").prop("hidden",true);
-					$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
+					$("#modelMsg123").html("<b class='boldTextGreen'>Configured successfully</b>");		
 					$("#pipeSizeSelect").prop('hidden',true);
 					$("#fluidType").prop('disabled',true);
 					$("#distance").prop('disabled',true);
@@ -278,7 +278,7 @@ function mainPage1(){
 			}else if (fluidSelect == 60){
 				if(ri>30 && rt >40 && ri == rt){
 				$("#errorPanel").prop("hidden",false);
-				$("#modelMsg123").html("<b class='boldTextRed'>Select Inner and Outer Radius less than  </b>");
+				$("#modelMsg123").html("<b class='boldTextRed'>Select inner and outer radius less than radius </b>");
 				}
 				else if (ri == rt){
 				$("#errorPanel").prop("hidden",false);
@@ -286,7 +286,7 @@ function mainPage1(){
 				
 			}else{
 					$("#errorPanel").prop("hidden",true);
-					$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
+					$("#modelMsg123").html("<b class='boldTextGreen'>Configured successfully</b>");		
 					$("#pipeSizeSelect").prop('hidden',true);
 					$("#fluidType").prop('disabled',true);
 					$("#distance").prop('disabled',true);
@@ -300,7 +300,7 @@ function mainPage1(){
 			}else if (fluidSelect == 70){
 				if(ri>40 && rt >60 && ri == rt){
 				$("#errorPanel").prop("hidden",false);
-				$("#modelMsg123").html("<b class='boldTextRed'>Select Inner and Outer Radius less than  </b>");
+				$("#modelMsg123").html("<b class='boldTextRed'>Select inner and outer radius less than radius </b>");
 				}
 				else if (ri == rt){
 				$("#errorPanel").prop("hidden",false);
@@ -309,7 +309,7 @@ function mainPage1(){
 			}
 				else{
 					$("#errorPanel").prop("hidden",true);
-					$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
+					$("#modelMsg123").html("<b class='boldTextGreen'>Configured successfully</b>");		
 					$("#pipeSizeSelect").prop('hidden',true);
 					$("#fluidType").prop('disabled',true);
 					$("#distance").prop('disabled',true);
@@ -341,7 +341,7 @@ function mainPage1(){
 	
 		else{
 		$("#errorPanel").prop("hidden",true);
-		$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
+		$("#modelMsg123").html("<b class='boldTextGreen'>Configured successfully</b>");		
 		$("#pipeSizeSelect").prop('hidden',true);
 		$("#fluidType").prop('disabled',true);
 		$("#distance").prop('disabled',true);
