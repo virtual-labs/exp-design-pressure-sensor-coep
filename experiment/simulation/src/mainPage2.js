@@ -126,7 +126,7 @@ function mainPage2(){
 //						flow = flowAns.toFixed(2);
 						if (flowAns == calculateTime) {
 							
-							$("#modelMsg123").html("<b class='boldTextGreen'>Correct Answer</b>");
+							$("#modelMsg123").html("<b class='boldTextGreen'>Correct answer</b>");
 							$("#timeAnswer").prop('hidden',true);
 							
 							addToMasterJSON();
@@ -135,7 +135,7 @@ function mainPage2(){
 					
 						} else {
 
-							 $("#modelMsg123").html("<b class='boldTextBlue'>Correct Answer is  " +calculateTime+'</b>');
+							 $("#modelMsg123").html("<b class='boldTextBlue'>Correct answer is  " +calculateTime+'</b>');
 						}
 					}
 					id++;

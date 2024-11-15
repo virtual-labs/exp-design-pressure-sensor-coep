@@ -123,7 +123,7 @@ function mimic2() {
 				 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Entered value is Incorrect.<br>Try again");
+			$("#MsgModal").html("Entered value is incorrect.<br>Try again");
 				
 
 
@@ -162,7 +162,7 @@ function mimic2() {
 			$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
-			$("#MsgModal").html("Correct Answer is " + flow);
+			$("#MsgModal").html("Correct answer is " + flow);
 
 			}
 		}
@@ -230,7 +230,7 @@ function mimic2() {
 				 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Entered value is Incorrect.<br>Try again");
+			$("#MsgModal").html("Entered value is incorrect.<br>Try again");
 
 
 			}
@@ -268,7 +268,7 @@ function mimic2() {
 			$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
-			$("#MsgModal").html("Correct Answer is " + flow);
+			$("#MsgModal").html("Correct answer is " + flow);
 
 
 			}
@@ -339,7 +339,7 @@ function mimic2() {
 				 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Entered value is Incorrect.<br>Try again");
+			$("#MsgModal").html("Entered value is incorrect.<br>Try again");
 
 
 			}
@@ -376,7 +376,7 @@ function mimic2() {
 				$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
-			$("#MsgModal").html("Correct Answer is " + flow);
+			$("#MsgModal").html("Correct answer is " + flow);
 			}
 		}
 		
@@ -446,7 +446,7 @@ function mimic2() {
 				 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Entered value is Incorrect.<br>Try again");
+			$("#MsgModal").html("Entered value is incorrect.<br>Try again");
 
 
 			}
@@ -483,7 +483,7 @@ function mimic2() {
 				$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
-			$("#MsgModal").html("Correct Answer is " + flow);
+			$("#MsgModal").html("Correct answer is " + flow);
 
 			}
 		}
@@ -557,7 +557,7 @@ function mimic2() {
 				 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Entered value is Incorrect.<br>Try again");
+			$("#MsgModal").html("Entered value is incorrect.<br>Try again");
 
 
 			}
@@ -595,7 +595,7 @@ function mimic2() {
 				$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
-			$("#MsgModal").html("Correct Answer is " + flow);
+			$("#MsgModal").html("Correct answer is " + flow);
 
 			}
 		}
@@ -862,7 +862,7 @@ if (radius == 70 ){
 				 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Entered value is Incorrect.<br>Try again");
+			$("#MsgModal").html("Entered value is incorrect.<br>Try again");
 
 
 			}
@@ -900,7 +900,7 @@ if (radius == 70 ){
 				$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
-			$("#MsgModal").html("Correct Answer is " + flow);
+			$("#MsgModal").html("Correct answer is " + flow);
 			
 			}
 		}
