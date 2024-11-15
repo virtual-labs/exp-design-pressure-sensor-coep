@@ -137,6 +137,7 @@ function mimic2() {
 			$(".modal-header").css("background","#23435c");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 			modelImg = '<img src="images/F_5.png" class="img-responsive" alt="Cinque Terre">'
+			+'<b>where,<br> P Pressure,<br> R Radius,<br> t Thickness, <br> v Poisson ratio = 0.25  </b>';
 			$("#MsgModal").html(modelImg);
 
 		} else {
@@ -243,6 +244,7 @@ function mimic2() {
 			$(".modal-header").css("background","#23435c");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 			modelImg = '<img src="images/F_4.png" class="img-responsive" alt="Cinque Terre">'
+			+'<b>where,<br> P Pressure,<br> R Radius,<br> t Thickness, <br> v Poisson ratio = 0.25 </b>'
 			$("#MsgModal").html(modelImg);
 
 
@@ -352,6 +354,7 @@ function mimic2() {
 			$(".modal-header").css("background","#23435c");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 			modelImg = '<img src="images/F_5.png" class="img-responsive" alt="Cinque Terre">'
+			+'<b>where,<br> P Pressure,<br> R Radius,<br> t Thickness, <br> v Poisson ratio = 0.25  </b>'
 			$("#MsgModal").html(modelImg);
 
 		} else {
@@ -459,6 +462,7 @@ function mimic2() {
 			$(".modal-header").css("background","#23435c");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 			modelImg = '<img src="images/F_2.png" class="img-responsive" alt="Cinque Terre">'
+			+'<b>where,<br> &#963;<sub>t</sub> = Tangential stress <br> &#963;<sub>r</sub> = Radial stress <br> E being Young modulus = 2.07 X 10<sup>5</sup> </b>'
 			$("#MsgModal").html(modelImg);
 
 		} else {
@@ -570,6 +574,7 @@ function mimic2() {
 			$(".modal-header").css("background","#23435c");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 			modelImg = '<img src="images/F_3.png" class="img-responsive" alt="Cinque Terre">'
+			+'<b>where,<br> &#963;<sub>t</sub> = Tangential stress <br> &#963;<sub>r</sub> = Radial stress <br> E being Young modulus = 2.07 X 10<sup>5</sup> </b>'
 			
 			$("#MsgModal").html(modelImg);
 
@@ -875,6 +880,7 @@ if (radius == 70 ){
 			$(".modal-header").css("background","#23435c");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 			modelImg = '<img src="images/F_4.png" class="img-responsive" alt="Cinque Terre">'
+			+'<b>where,<br> P = Pressure,<br> R Radius,<br> t Thickness, <br> v  Poisson ratio = 0.25  </b>'
 			$("#MsgModal").html(modelImg);
 
 		} else {

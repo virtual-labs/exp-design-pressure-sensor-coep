@@ -11,7 +11,7 @@ function mainPage3(){
       var htm = '<img src="images/demoBridge.png" class="img-fluid" >'
       $("#canvas-div").html(htm);
       var selection  ='<div class="row"><div class="col-sm-6" >'
-       +'<label class="labelstyle"> Select the Voltage (V): </label>'   
+       +'<label class="labelstyle"> Select the Voltage (E<sub>b</sub>): </label>'   
        +'</div>'
        +'<div class="col-sm-6">'
 	   +'<select  class="form-control selectConf" id="vlt"  style="height:auto;">'
@@ -28,7 +28,7 @@ function mainPage3(){
 	   
 	   
 	   +'<div class="col-sm-6">'
-	   +'<label class="labelstyle"> Select Gauge Factor : </label>'
+	   +'<label class="labelstyle"> Select Gauge Factor (F) : </label>'
 	   +'</div>'
 	   +'<div class="col-sm-6">'
 	   +'<select  class="form-control selectConf" id="fct" " style="height:auto;">'
