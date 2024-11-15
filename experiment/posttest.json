@@ -7,7 +7,7 @@
         "a": "Electrical resistance",
         "b": "Thickness",
         "c": "Color",
-        "d": " Temperature"
+        "d": "Temperature"
       },
      
       "correctAnswer": "b",
@@ -31,7 +31,7 @@
       "answers": {
         "a": "Low cost",
         "b": "Ability to measure extreme temperatures",
-        "c": " High accuracy and sensitivity",
+        "c": "High accuracy and sensitivity",
         "d": "Insensitivity to pressure changes"
       },
      

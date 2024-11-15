@@ -5,7 +5,7 @@
       "question": "What is the primary function of a diaphragm in a pressure sensor?",
       "answers": {
         "a": "Measure temperature",
-        "b": "Convert mechanical pressure into electrical signal",
+        "b": "Convert mechanical pressure into an electrical signal",
         "c": "Measure humidity",
         "d": "Control flow rate"
       },

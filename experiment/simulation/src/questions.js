@@ -115,7 +115,7 @@
 						 data.corrAns = dataQues;
 						
 						 
-						 $("#modelMsg").html("<b class='boldTextGreen'>Test Submitted Successfully .<br> Correct Answers  : " + ansCount+"</b>");
+						 $("#modelMsg").html("<b class='boldTextGreen'>Test submitted successfully .<br> Correct answers  : " + ansCount+"</b>");
                          $('#nextLevelConfig').prop('hidden',false);
 						 
 						    $('#testSubmit').prop('hidden',true); 

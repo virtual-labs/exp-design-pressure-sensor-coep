@@ -112,8 +112,8 @@ var htm = ''
 
 	+ '<div class="col-md-12">'
 	+ ' <div class="panel remarkBground" >'
-	+ ' <div class="panel-body remark" style = "font-size:20px;" ><center> <br> <b> Pressure Sensor Experiment is Completed Sucessfully !! </b>'
-	+ '<br> <b> </b></center></div>'
+	+ ' <div class="panel-body remark" style = "font-size:20px;" ><center> <b> Pressure sensor experiment completed sucessfully !! </b>'
+	+ '</center></div>'
 	+ '</div>'
 	+ '</div>'
 
@@ -131,7 +131,7 @@ var htm = ''
 		   +' </thead>'
 		   +'  <tbody>'
 		   +'   <tr>'
-		   +'     <td class=""><center>Basic knowledge</center></td>'
+		   +'     <td class=""><center>Basic Knowledge</center></td>'
 		 	if(quesPercent>=60){ 
 		   
 		   htm +='     <td class=""><center class="attained"> Attained</center></td>'
@@ -169,7 +169,7 @@ var htm = ''
 		 	 htm +='  </tr>'
  
 		  + '<tr>'
-		  +' <td class=""><center>WHEATSTONE CONSTRUCTION</cente</td>'
+		  +' <td class=""><center>Wheatstone Construction</cente</td>'
 		   if(constrct>=60){ 
 	   
 		   htm +='     <td class=""><center class="attained"> Attained</center></td>'
@@ -198,7 +198,7 @@ var htm = ''
 		+'<div class="col-md-4">'
 		+' <div class="panel panel-danger headingPanel" style = "margin-top:80px;">'
 		+' <div class="panel-body" id="panelbody">'
-		+'<center><span class="heading1"><b>BASIC KNOWLEDGE </b></span></center>'		
+		+'<center><span class="heading1"><b>Basic Knowledge </b></span></center>'		
 		+'</div>'
 		+'</div>'
 		

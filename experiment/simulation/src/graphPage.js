@@ -174,7 +174,7 @@ tableMainDiv =	'<div class="">'
 	             +'</div>'
 	             
 	             + '<div class="col-sm-6">'
-	             +'<label class="text-primary" style="margin-left:10px;font-size: x-large;"><center>Pressure Sensor Configuration  </center></label>'
+	             +'<label class="text-primary" style="margin-left:10px;font-size: x-large;"><center>Pressure sensor configuration  </center></label>'
  	               
 	             +'</div>'
 	            
@@ -229,7 +229,7 @@ tableMainDiv =	'<div class="">'
 	             +'</div>'
 	             
 	             + '<div class="col-sm-6">'
-	             +'<label class="text-primary" style="margin-left:10px;font-size: x-large;"><center> Pressure Sensor Performance  </center></label>'
+	             +'<label class="text-primary" style="margin-left:10px;font-size: x-large;"><center> Pressure sensor performance  </center></label>'
  	               
 	             +'</div>'
 	            
@@ -240,7 +240,7 @@ tableMainDiv =	'<div class="">'
 	              
 	                +   '<div class="row" id="selLoadErr" >'
 				   +'<div class="col-sm-5">'
-				   +'<label  id=""  class="" style="font-size:16px;margin:15px 10px ;">Select Pressure (pa) :  </label>'
+				   +'<label  id=""  class="" style="font-size:16px;margin:15px 10px ;">Select pressure (pa) :  </label>'
 				   +'</div>'
 				   
 				          +'<div class="col-sm-4">'
@@ -269,7 +269,7 @@ tableMainDiv =	'<div class="">'
 	              
 	               +'<div class="row" id="errCal" hidden>'
 				   +'<div class="col-sm-5">'
-				   +'<label  id=""  class="" style="font-size:16px;margin:15px 10px ;">Calculate Error of selected pressure :  </label>'
+				   +'<label  id=""  class="" style="font-size:16px;margin:15px 10px ;">Calculate error of selected pressure :  </label>'
 				   +'</div>'
 				   +'<div class="col-sm-4">'
 				   +'<input type="number" value="" id="errorCheck"  style="margin:10px;margin-left:1px;width:100%;"  class=" form-control" />'
@@ -282,7 +282,7 @@ tableMainDiv =	'<div class="">'
 				   
 				   +'<div class="row" id="senCheck" hidden>'
 				   +'<div class="col-sm-5">'
-				   +'<label  id=""  class="" style="font-size:16px;margin:15px 10px ;">Calculate Sensitivity of pressure mV/N :  </label>'
+				   +'<label  id=""  class="" style="font-size:16px;margin:15px 10px ;">Calculate sensitivity of pressure mV/N :  </label>'
 				   +'</div>'
 				   +'<div class="col-sm-4">'
 				   +'<input type="number" value="" id="sensitivity"  style="margin:10px;margin-left:1px;width:100%;"  class=" form-control" />'
@@ -312,7 +312,7 @@ tableMainDiv =	'<div class="">'
 			$(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Select Appropriate Value");
+			$("#MsgModal").html("Select appropriate value");
 		}else{
 			
 			if(loadErrVal==1){
@@ -356,7 +356,7 @@ tableMainDiv =	'<div class="">'
 			$(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Enter Appropriate Value");
+			$("#MsgModal").html("Enter appropriate value");
 		}else{ 
 			
 			
@@ -400,7 +400,7 @@ tableMainDiv =	'<div class="">'
 					 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Entered value is Incorrect.<br>Try again");
+			$("#MsgModal").html("Entered value is incorrect.<br>Try again");
 
 				}
 	
@@ -410,7 +410,7 @@ tableMainDiv =	'<div class="">'
 			$(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#23435c");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("<b> Formula : Error = Standard value - Observed value");
+			$("#MsgModal").html("<b> Formula : <br> Error = Standard value - Observed value</b>");
 
 				
 			} else {
@@ -430,7 +430,7 @@ tableMainDiv =	'<div class="">'
 			$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
-			$("#MsgModal").html("Correct Answer is " + errCal);
+			$("#MsgModal").html("Correct answer is " + errCal);
 	
 				}
 			}
@@ -476,7 +476,7 @@ tableMainDiv =	'<div class="">'
 					 $(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("Entered value is Incorrect.<br>Try again");
+			$("#MsgModal").html("Entered value is incorrect.<br>Try again");
 
 				}
 	
@@ -486,7 +486,7 @@ tableMainDiv =	'<div class="">'
 			$(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#23435c");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("<b> Formula : Sensitivity = Output/Input");
+			$("#MsgModal").html("<b> Formula : <br>Sensitivity = Output/Input</b>");
 
 				
 			} else {
@@ -502,7 +502,7 @@ tableMainDiv =	'<div class="">'
 			$("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
-			$("#MsgModal").html("Correct Answer is " + sensitivityCal);
+			$("#MsgModal").html("Correct answer is " + sensitivityCal);
 	
 				}
 			}

@@ -61,7 +61,7 @@ function mainPage3(){
 	   +'</div>'
 	   +'<br>'   
        +'<div class="col-sm-12" id="buttonDiv">'
-	   +'<button type="button" style="padding: 5px; "  class="btn btn-danger btnStyle" id="submitconfig" data-toggle="modal" data-target="#selectCheck" ><b> CALCULATE VOLTAGAE </b></button>' 
+	   +'<button type="button" style="padding: 5px; "  class="btn btn-danger btnStyle" id="submitconfig" data-toggle="modal" data-target="#selectCheck" ><b> CALCULATE VOLTAGE </b></button>' 
 	    +'</div>'
 	    
 	  +'<br>' 
@@ -128,7 +128,7 @@ function mainPage3(){
 		$("#modelMsg123").html("<b class='boldTextRed'>Select Pressure </b>");
 	} else{
 		$("#errorPanel").prop("hidden",true);
-		$("#modelMsg123").html("<b class='boldTextGreen'>Configured Successfully</b>");		
+		$("#modelMsg123").html("<b class='boldTextGreen'>Configured successfully</b>");		
 		$("#vlt").prop('disabled',true);
 		$("#fct").prop('disabled',true);
 		

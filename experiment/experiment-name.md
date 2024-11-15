@@ -1,1 +1,1 @@
-## Design of Pressure Sensor and its applications
+## Design of pressure sensor and its applications
