@@ -72,7 +72,7 @@ let dots = [];
 let isDraggingDot = false;
 let draggedDot = null;
 let shadowLine = null; // Declare shadowLine here
-
+let validConnectionCount = 0;
 // Images setup
 const images = [
     {
@@ -210,7 +210,7 @@ function checkAllConnections() {
 //            console.log(`Invalid connection between ${startId} and ${endId}`);  
         } else {  
 //            console.log(`Valid connection between ${startId} and ${endId}`);  
-
+			validConnectionCount++;
             // Track required specific connections  
             if ((startId === 'dot1' && endId === 'dot4') || (startId === 'dot4' && endId === 'dot1')) {  
                 requiredConditionsMet.dot1ToDot4 = true;  // dot1 is connected to dot4  
@@ -256,7 +256,9 @@ function checkAllConnections() {
                 requiredConditionsMet.dot6ToDot8 = true;  // dot6 is connected to dot8  
             }  
         }  
-    });  
+    }); 
+
+
 
     // Check if the first combination is valid  
     const isFirstCombinationValid = requiredConditionsMet.dot1ToDot4 && requiredConditionsMet.dot2ToDot6;  
@@ -348,7 +350,8 @@ function checkAllConnections() {
 			$("#MsgModal").html("The digital meter's input and output connections are incorrect.");
 	       invalidConnCnt++;
 //            return; // Exit the function here  
-        } else {  
+        } else { 
+			validConnectionCount++;
             $("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
@@ -412,6 +415,7 @@ function checkAllConnections() {
 	       invalidConnCnt++;
 //            return; // Exit the function here  
         } else {  
+		validConnectionCount++;
            $("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
@@ -474,6 +478,7 @@ function checkAllConnections() {
 	       invalidConnCnt++;
 //            return; // Exit the function here  
         } else {  
+			validConnectionCount++;
            $("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
@@ -549,6 +554,7 @@ function checkAllConnections() {
 //            ("First combination is valid, but the required additional connections (dot3 to dot7 and dot5 to dot8) are missing.");  
 //            return; // Exit the function here  
         } else { 
+			validConnectionCount++;
 	        $("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
@@ -616,6 +622,7 @@ function checkAllConnections() {
 	       
 //            return; // Exit the function here  
         } else {  
+			validConnectionCount++;
             $("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
@@ -680,7 +687,8 @@ function checkAllConnections() {
             $("#MsgModal").html(modelImg);            
 	       
 //            return; // Exit the function here  
-        } else {  
+        } else { 
+			validConnectionCount++;
            $("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");
@@ -745,6 +753,7 @@ function checkAllConnections() {
 	       invalidConnCnt++;
 //            return; // Exit the function here  
         } else {  
+			validConnectionCount++;
            $("#btnModal").removeClass("btn-danger").addClass("btn-success");
 	        $(".modal-header").html("Success Message");
             $(".modal-header").css("background","#5cb85c");

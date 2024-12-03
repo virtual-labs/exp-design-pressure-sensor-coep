@@ -370,7 +370,7 @@ var htm = ''
 
 		+'<div class="col-sm-4">'
 		+' <div class="panel panel-danger headingPanel">'
-		+' <div class="panel-body" id="panelbody"><center><span class="heading1"><b>Construct wheat stone bridge circuit</b></span></center></div>'
+		+' <div class="panel-body" id="panelbody"><center><span class="heading1"><b>Construct wheatstone bridge circuit</b></span></center></div>'
 		+'</div>'
 		
 		+'<div class="col-sm-6">'
