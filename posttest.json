@@ -1,0 +1,68 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What property of the diaphragm material affects the sensor's sensitivity?",
+      "answers": {
+        "a": "Electrical resistance",
+        "b": "Thickness",
+        "c": "Color",
+        "d": "Temperature"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Diaphragm-type pressure sensors are ideal for applications requiring",
+      "answers": {
+        "a": "High precision in low-pressure measurements",
+        "b": "High-voltage detection ",
+        "c": "Detection of magnetic fields",
+        "d": "High-speed motion sensing"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Which of the following is a key advantage of using a diaphragm-type pressure sensor?",
+      "answers": {
+        "a": "Low cost",
+        "b": "Ability to measure extreme temperatures",
+        "c": "High accuracy and sensitivity",
+        "d": "Insensitivity to pressure changes"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is a common use for diaphragm pressure sensors in medical applications?",
+      "answers": {
+        "a": "Measuring blood pressure",
+        "b": "Measuring body temperature",
+        "c": "Detecting sound waves",
+        "d": "Monitoring heart rate"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Diaphragm-type pressure sensors are used in which of the following industries? ",
+      "answers": {
+        "a": "Automotive",
+        "b": "Healthcare",
+        "c": "Aerospace",
+        "d": "All of the above"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}

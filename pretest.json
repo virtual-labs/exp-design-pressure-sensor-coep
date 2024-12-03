@@ -1,0 +1,64 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary function of a diaphragm in a pressure sensor?",
+      "answers": {
+        "a": "Measure temperature",
+        "b": "Convert mechanical pressure into an electrical signal",
+        "c": "Measure humidity",
+        "d": "Control flow rate"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What material is commonly used for diaphragms in pressure sensors?",
+      "answers": {
+        "a": "Plastic",
+        "b": "Aluminum",
+        "c": "Stainless steel",
+        "d": "Copper"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens when pressure is applied to a diaphragm in a pressure sensor?",
+      "answers": {
+        "a": "The diaphragm melts",
+        "b": "The diaphragm deflects",
+        "c": "The diaphragm expands",
+        "d": "The diaphragm emits light"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	
+	{
+      "question": "In a diaphragm-type pressure sensor, how is pressure measured?",
+      "answers": {
+        "a": "By sensing temperature changes",
+        "b": "By detecting light absorption",
+        "c": "By measuring the deformation of the diaphragm",
+        "d": "By counting the number of particles in the fluid"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "In a diaphragm-type pressure sensor, what is often used to convert diaphragm deflection into an electrical signal?",
+      "answers": {
+        "a": "Piezoelectric material",
+        "b": "Strain gauge",
+        "c": "Thermistor",
+        "d": "Optical fiber"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+	
+  ]
+}
