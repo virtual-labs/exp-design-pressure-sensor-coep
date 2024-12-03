@@ -6,7 +6,7 @@ function mainPage3(){
      $("#canvas-div").html('');	
      $("#tableDesign").html("");
      $("#selectMethod").prop('disabled',true);
-      $("#centerText1").html('Wheat Stone Bridge');
+      $("#centerText1").html('Wheatstone Bridge');
       $("#centerText2").html('CONFIGURATION');
       var htm = '<img src="images/demoBridge.png" class="img-fluid" >'
       $("#canvas-div").html(htm);
